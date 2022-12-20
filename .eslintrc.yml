@@ -1,0 +1,62 @@
+env:
+  browser: true
+  es2021: true
+extends:
+  - eslint:recommended
+  - plugin:@typescript-eslint/recommended
+  - standard-with-typescript
+  - plugin:solid/typescript
+  - plugin:promise/recommended
+  - prettier
+overrides: []
+parser: "@typescript-eslint/parser"
+parserOptions:
+  ecmaVersion: latest
+  sourceType: module
+  project: ./tsconfig.json
+plugins:
+  - "@typescript-eslint"
+  - solid
+  - import
+  - promise
+rules:
+  no-unused-vars: off
+  "@typescript-eslint/no-unused-vars":
+    - off
+    - destructuredArrayIgnorePattern: "^_"
+      argsIgnorePattern: "^_"
+  "@typescript-eslint/no-misused-promises":
+    - error
+    - checksVoidReturn: false
+  "@typescript-eslint/consistent-type-assertions": off
+  "@typescript-eslint/explicit-function-return-type": warn
+  "@typescript-eslint/strict-boolean-expressions": off
+  new-cap: off
+  import/order: # ref: https://chaika.hatenablog.com/entry/2022/05/15/150000
+    - error
+      # Order by group
+    - groups:
+        - builtin
+        - external
+        - internal
+        - parent
+        - sibling
+        - object
+        - type
+        - index
+      # no extra newlines between imports
+      newlines-between: never
+      pathGroupsExcludedImportTypes:
+        - builtin
+      alphabetize:
+        order: asc
+        caseInsensitive: true
+      pathGroups:
+        # pull up react-related
+        - pattern: 'react**'
+          group: external
+          position: before
+        # put css modules in the bottom
+        - pattern: './**.module.css'
+          group: index
+          position: after
