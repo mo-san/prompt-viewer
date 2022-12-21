@@ -101,13 +101,21 @@ const parsePrompt = (prompt: string | undefined): TPrompt => {
   if (prompt == null) return {} as TPrompt;
 
   const arr = prompt.split("\n");
-  const _params = arr[2].split(", ").map((param) => param.split(": ")) as Array<[TPromptKeys, string]>;
+
+  const negativeIndex = arr.findIndex((value) => value.startsWith("Negative prompt: "));
+  const positive = arr.slice(0, negativeIndex).join("\n");
+  const negative = arr
+    .slice(negativeIndex, arr.length - 1)
+    .join("\n")
+    .replace(/^Negative prompt: /, "");
+
+  const _params = (arr.at(-1) as string).split(", ").map((param) => param.split(": ")) as Array<[TPromptKeys, string]>;
   const params = _params.reduce((all, [key, val]) => Object.assign(all, { [key]: val }), {});
 
   return {
     ...params,
-    [keyPositive]: arr[0],
-    [keyNegative]: arr[1].replace(/^Negative prompt: /, ""),
+    [keyPositive]: positive,
+    [keyNegative]: negative,
   } as TPrompt;
 };
 
