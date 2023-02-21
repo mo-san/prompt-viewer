@@ -2,8 +2,8 @@ lockfileVersion: 5.4
 
 specifiers:
   '@suid/icons-material': ^0.5.3
-  '@suid/material': ^0.8.2
-  '@suid/system': ^0.7.1
+  '@suid/material': ^0.10.0
+  '@suid/system': ^0.8.0
   '@suid/utils': ^0.6.0
   '@suid/vite-plugin': ^0.1.0
   '@typescript-eslint/eslint-plugin': ^5.46.1
@@ -25,8 +25,8 @@ specifiers:
 
 dependencies:
   '@suid/icons-material': 0.5.3_solid-js@1.6.5
-  '@suid/material': 0.8.2_solid-js@1.6.5
-  '@suid/system': 0.7.1_solid-js@1.6.5
+  '@suid/material': 0.10.2_solid-js@1.6.5
+  '@suid/system': 0.8.3_solid-js@1.6.5
   '@suid/utils': 0.6.0_solid-js@1.6.5
   exifr: 7.1.3
   solid-js: 1.6.5
@@ -495,6 +495,20 @@ packages:
       solid-js: 1.6.5
     dev: false
 
+  /@suid/base/0.6.3_solid-js@1.6.5:
+    resolution: {integrity: sha512-LrQEmkXySozrgwf482i9AaK9fmYzN8UVxEGZd+8pufjDY6MzJFYHm363ODm8Kjho2L96wqWGuGBxO6uSIKtazQ==}
+    peerDependencies:
+      solid-js: ^1.6.7
+    dependencies:
+      '@popperjs/core': 2.11.6
+      '@suid/css': 0.2.1
+      '@suid/system': 0.8.3_solid-js@1.6.5
+      '@suid/types': 0.4.0_solid-js@1.6.5
+      '@suid/utils': 0.6.1_solid-js@1.6.5
+      clsx: 1.2.1
+      solid-js: 1.6.5
+    dev: false
+
   /@suid/css/0.1.7_solid-js@1.6.5:
     resolution: {integrity: sha512-SBRGHwBndin52tgLAyVlu0cNcDeBJVYA0E4cfo7TO0Jmicmn3xgWXG8Ie7kSDnS8tSf9IZuVnXHaq9deZfdvdA==}
     dependencies:
@@ -503,12 +517,30 @@ packages:
       - solid-js
     dev: false
 
+  /@suid/css/0.2.1:
+    resolution: {integrity: sha512-ictV73loNG7BH9ID5PRGnuMryrAHOfyspaCZsQUzz5cTeLttFYgD/QKUcWr4FEG/1O7GVzgJlqtIT1r55LbCtw==}
+    dev: false
+
   /@suid/icons-material/0.5.3_solid-js@1.6.5:
     resolution: {integrity: sha512-UtxUZXYeg5lk/wnLjfK6ksxIWkUpx/TJm3hAFI4cj7irQfAzVxBa/f+Fcliba9gI4afWxSanibh1uZ1LE/Nx6Q==}
     peerDependencies:
       solid-js: ^1.6.2
     dependencies:
       '@suid/material': 0.8.2_solid-js@1.6.5
+      solid-js: 1.6.5
+    dev: false
+
+  /@suid/material/0.10.2_solid-js@1.6.5:
+    resolution: {integrity: sha512-J9G9dvwLqRyiLcYlt4JbGORJT/Yji+9P8efifsAVAmAoSSPr5kirnraoWaoqmuGJtCKCd0Gj7ksxi8r7sRgpzg==}
+    peerDependencies:
+      solid-js: ^1.6.7
+    dependencies:
+      '@suid/base': 0.6.3_solid-js@1.6.5
+      '@suid/css': 0.2.1
+      '@suid/system': 0.8.3_solid-js@1.6.5
+      '@suid/types': 0.4.0_solid-js@1.6.5
+      '@suid/utils': 0.6.1_solid-js@1.6.5
+      clsx: 1.2.1
       solid-js: 1.6.5
     dev: false
 
@@ -536,6 +568,16 @@ packages:
       solid-js: 1.6.5
     dev: false
 
+  /@suid/styled-engine/0.4.1_solid-js@1.6.5:
+    resolution: {integrity: sha512-TzY/2zuspzVnx8q5PG04FgNzkJlESLZwxMYQK4VkIuqTm4CrC8VNMunBBUdv+4DVpQKArtO1ZnTGNNtE34rD8Q==}
+    peerDependencies:
+      solid-js: ^1.6.7
+    dependencies:
+      '@suid/css': 0.2.1
+      '@suid/utils': 0.6.1_solid-js@1.6.5
+      solid-js: 1.6.5
+    dev: false
+
   /@suid/system/0.7.1_solid-js@1.6.5:
     resolution: {integrity: sha512-ltWJULVcbLLTmEWdoy33d5Aa4C37V6nk0d0YoqvGJc8ujZ4SDR5hrszWixQG5i/j76+s++ep+9Z9W1xuw/IlTA==}
     peerDependencies:
@@ -550,10 +592,32 @@ packages:
       solid-js: 1.6.5
     dev: false
 
+  /@suid/system/0.8.3_solid-js@1.6.5:
+    resolution: {integrity: sha512-zWG/gOycH02EU5KHvRSWuJwKQnRgb1MXKbcZewOu0HYoOx6nTy6hWtoMFVbuYGLpMlzW8W8ABen91qhGWFDlNA==}
+    peerDependencies:
+      solid-js: ^1.6.7
+    dependencies:
+      '@suid/css': 0.2.1
+      '@suid/styled-engine': 0.4.1_solid-js@1.6.5
+      '@suid/types': 0.4.0_solid-js@1.6.5
+      '@suid/utils': 0.6.1_solid-js@1.6.5
+      clsx: 1.2.1
+      csstype: 3.1.1
+      solid-js: 1.6.5
+    dev: false
+
   /@suid/types/0.3.0_solid-js@1.6.5:
     resolution: {integrity: sha512-MrfSnnI8oyPy+TtSIG6qVZyqVN7GMH49uRbw8ACLEek2T1keG2NtLNgNWhiWv51bP0CwBAalwt+QGcN4b/3OSw==}
     peerDependencies:
       solid-js: ^1.6.2
+    dependencies:
+      solid-js: 1.6.5
+    dev: false
+
+  /@suid/types/0.4.0_solid-js@1.6.5:
+    resolution: {integrity: sha512-rafpWrES+G8peLp1L7rm6QHGd+yhMV01jIzFDTzLIYgv8cQk4AsoKfgzZVfPysptF24owD9491Dv4BAzQY+XFA==}
+    peerDependencies:
+      solid-js: ^1.6.7
     dependencies:
       solid-js: 1.6.5
     dev: false
@@ -564,6 +628,15 @@ packages:
       solid-js: ^1.6.2
     dependencies:
       '@suid/types': 0.3.0_solid-js@1.6.5
+      solid-js: 1.6.5
+    dev: false
+
+  /@suid/utils/0.6.1_solid-js@1.6.5:
+    resolution: {integrity: sha512-Fg6oblOZIjZYnbF/kigE3GcqfVxN2kpmaVPpAeqTDvHNeHWzDI/rEWEXZI4nJ5WzToXDYOLHhYiQYWPDDsXPHA==}
+    peerDependencies:
+      solid-js: ^1.6.7
+    dependencies:
+      '@suid/types': 0.4.0_solid-js@1.6.5
       solid-js: 1.6.5
     dev: false
 
