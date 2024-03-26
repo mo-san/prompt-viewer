@@ -24,12 +24,12 @@ specifiers:
   vite-plugin-solid: ^2.5.0
 
 dependencies:
-  '@suid/icons-material': 0.5.3_solid-js@1.6.5
-  '@suid/material': 0.8.2_solid-js@1.6.5
-  '@suid/system': 0.7.1_solid-js@1.6.5
-  '@suid/utils': 0.6.0_solid-js@1.6.5
+  '@suid/icons-material': 0.5.3_solid-js@1.8.16
+  '@suid/material': 0.8.2_solid-js@1.8.16
+  '@suid/system': 0.7.1_solid-js@1.8.16
+  '@suid/utils': 0.6.0_solid-js@1.8.16
   exifr: 7.1.3
-  solid-js: 1.6.5
+  solid-js: 1.8.16
 
 devDependencies:
   '@suid/vite-plugin': 0.1.0_vite@3.2.5
@@ -46,7 +46,7 @@ devDependencies:
   sass: 1.57.0
   typescript: 4.9.4
   vite: 3.2.5_sass@1.57.0
-  vite-plugin-solid: 2.5.0_solid-js@1.6.5+vite@3.2.5
+  vite-plugin-solid: 2.5.0_solid-js@1.8.16+vite@3.2.5
 
 packages:
 
@@ -481,90 +481,90 @@ packages:
     resolution: {integrity: sha512-50/17A98tWUfQ176raKiOGXuYpLyyVMkxxG6oylzL3BPOlA6ADGdK7EYunSa4I064xerltq9TGXs8HmOk5E+vw==}
     dev: false
 
-  /@suid/base/0.5.1_solid-js@1.6.5:
+  /@suid/base/0.5.1_solid-js@1.8.16:
     resolution: {integrity: sha512-0IbaD/KoJUuT4F6EsKDB1dMX0gAZAGzyUz52RyXRTbEv/e2mgK+00wYRRgxaFcjtfHFutFTkIQ4c0EU+GRECWg==}
     peerDependencies:
       solid-js: ^1.6.2
     dependencies:
       '@popperjs/core': 2.11.6
-      '@suid/css': 0.1.7_solid-js@1.6.5
-      '@suid/system': 0.7.1_solid-js@1.6.5
-      '@suid/types': 0.3.0_solid-js@1.6.5
-      '@suid/utils': 0.6.0_solid-js@1.6.5
+      '@suid/css': 0.1.7_solid-js@1.8.16
+      '@suid/system': 0.7.1_solid-js@1.8.16
+      '@suid/types': 0.3.0_solid-js@1.8.16
+      '@suid/utils': 0.6.0_solid-js@1.8.16
       clsx: 1.2.1
-      solid-js: 1.6.5
+      solid-js: 1.8.16
     dev: false
 
-  /@suid/css/0.1.7_solid-js@1.6.5:
+  /@suid/css/0.1.7_solid-js@1.8.16:
     resolution: {integrity: sha512-SBRGHwBndin52tgLAyVlu0cNcDeBJVYA0E4cfo7TO0Jmicmn3xgWXG8Ie7kSDnS8tSf9IZuVnXHaq9deZfdvdA==}
     dependencies:
-      '@suid/utils': 0.6.0_solid-js@1.6.5
+      '@suid/utils': 0.6.0_solid-js@1.8.16
     transitivePeerDependencies:
       - solid-js
     dev: false
 
-  /@suid/icons-material/0.5.3_solid-js@1.6.5:
+  /@suid/icons-material/0.5.3_solid-js@1.8.16:
     resolution: {integrity: sha512-UtxUZXYeg5lk/wnLjfK6ksxIWkUpx/TJm3hAFI4cj7irQfAzVxBa/f+Fcliba9gI4afWxSanibh1uZ1LE/Nx6Q==}
     peerDependencies:
       solid-js: ^1.6.2
     dependencies:
-      '@suid/material': 0.8.2_solid-js@1.6.5
-      solid-js: 1.6.5
+      '@suid/material': 0.8.2_solid-js@1.8.16
+      solid-js: 1.8.16
     dev: false
 
-  /@suid/material/0.8.2_solid-js@1.6.5:
+  /@suid/material/0.8.2_solid-js@1.8.16:
     resolution: {integrity: sha512-4gA23zlINdC7Wqe77tD4HeERmaL+I0n9JZdTV0RodU7WTfuxFhTxRroR3aSH+6J3yhwHhsYBla2QNmX4nfTbpg==}
     peerDependencies:
       solid-js: ^1.6.2
     dependencies:
-      '@suid/base': 0.5.1_solid-js@1.6.5
-      '@suid/css': 0.1.7_solid-js@1.6.5
-      '@suid/system': 0.7.1_solid-js@1.6.5
-      '@suid/types': 0.3.0_solid-js@1.6.5
-      '@suid/utils': 0.6.0_solid-js@1.6.5
+      '@suid/base': 0.5.1_solid-js@1.8.16
+      '@suid/css': 0.1.7_solid-js@1.8.16
+      '@suid/system': 0.7.1_solid-js@1.8.16
+      '@suid/types': 0.3.0_solid-js@1.8.16
+      '@suid/utils': 0.6.0_solid-js@1.8.16
       clsx: 1.2.1
-      solid-js: 1.6.5
+      solid-js: 1.8.16
     dev: false
 
-  /@suid/styled-engine/0.3.0_solid-js@1.6.5:
+  /@suid/styled-engine/0.3.0_solid-js@1.8.16:
     resolution: {integrity: sha512-TGpmRizJzDoBHcKPR5MUmK5v3Jkfx4mkVGxskEeGXUoMHSIkDWiNstEmYlLFOKqT2Ku2t0lJ8fOS4K777+dUiA==}
     peerDependencies:
       solid-js: ^1.6.2
     dependencies:
-      '@suid/css': 0.1.7_solid-js@1.6.5
-      '@suid/utils': 0.6.0_solid-js@1.6.5
-      solid-js: 1.6.5
+      '@suid/css': 0.1.7_solid-js@1.8.16
+      '@suid/utils': 0.6.0_solid-js@1.8.16
+      solid-js: 1.8.16
     dev: false
 
-  /@suid/system/0.7.1_solid-js@1.6.5:
+  /@suid/system/0.7.1_solid-js@1.8.16:
     resolution: {integrity: sha512-ltWJULVcbLLTmEWdoy33d5Aa4C37V6nk0d0YoqvGJc8ujZ4SDR5hrszWixQG5i/j76+s++ep+9Z9W1xuw/IlTA==}
     peerDependencies:
       solid-js: ^1.6.2
     dependencies:
-      '@suid/css': 0.1.7_solid-js@1.6.5
-      '@suid/styled-engine': 0.3.0_solid-js@1.6.5
-      '@suid/types': 0.3.0_solid-js@1.6.5
-      '@suid/utils': 0.6.0_solid-js@1.6.5
+      '@suid/css': 0.1.7_solid-js@1.8.16
+      '@suid/styled-engine': 0.3.0_solid-js@1.8.16
+      '@suid/types': 0.3.0_solid-js@1.8.16
+      '@suid/utils': 0.6.0_solid-js@1.8.16
       clsx: 1.2.1
       csstype: 3.1.1
-      solid-js: 1.6.5
+      solid-js: 1.8.16
     dev: false
 
-  /@suid/types/0.3.0_solid-js@1.6.5:
+  /@suid/types/0.3.0_solid-js@1.8.16:
     resolution: {integrity: sha512-MrfSnnI8oyPy+TtSIG6qVZyqVN7GMH49uRbw8ACLEek2T1keG2NtLNgNWhiWv51bP0CwBAalwt+QGcN4b/3OSw==}
     peerDependencies:
       solid-js: ^1.6.2
     dependencies:
-      solid-js: 1.6.5
+      solid-js: 1.8.16
     dev: false
 
-  /@suid/utils/0.6.0_solid-js@1.6.5:
+  /@suid/utils/0.6.0_solid-js@1.8.16:
     resolution: {integrity: sha512-1s5mRYbYCFzzo/t1tCvP72IizDNMjAIsV7SsBHqAQRayfQIlAaQv9D2HAQ0QW2WxHIQTsi4JLPZI/0MdiU12Vw==}
     peerDependencies:
       solid-js: ^1.6.2
     dependencies:
-      '@suid/types': 0.3.0_solid-js@1.6.5
-      solid-js: 1.6.5
+      '@suid/types': 0.3.0_solid-js@1.8.16
+      solid-js: 1.8.16
     dev: false
 
   /@suid/vite-plugin/0.1.0_vite@3.2.5:
@@ -922,7 +922,7 @@ packages:
       normalize-path: 3.0.0
       readdirp: 3.6.0
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: true
 
   /clsx/1.2.1:
@@ -970,6 +970,10 @@ packages:
 
   /csstype/3.1.1:
     resolution: {integrity: sha512-DJR/VvkAvSZW9bTouZue2sSxDwdTN92uHjqeKVm+0dAqdfNykRzQ95tay8aXMBAAPpUiq4Qcug2L7neoRh2Egw==}
+    dev: false
+
+  /csstype/3.1.3:
+    resolution: {integrity: sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw==}
 
   /debug/2.6.9:
     resolution: {integrity: sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==}
@@ -1687,8 +1691,8 @@ packages:
     resolution: {integrity: sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==}
     dev: true
 
-  /fsevents/2.3.2:
-    resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
+  /fsevents/2.3.3:
+    resolution: {integrity: sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
     requiresBuild: true
@@ -2336,7 +2340,7 @@ packages:
     engines: {node: '>=10.0.0'}
     hasBin: true
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: true
 
   /run-parallel/1.2.0:
@@ -2376,6 +2380,18 @@ packages:
       lru-cache: 6.0.0
     dev: true
 
+  /seroval-plugins/1.0.5_seroval@1.0.5:
+    resolution: {integrity: sha512-8+pDC1vOedPXjKG7oz8o+iiHrtF2WswaMQJ7CKFpccvSYfrzmvKY9zOJWCg+881722wIHfwkdnRmiiDm9ym+zQ==}
+    engines: {node: '>=10'}
+    peerDependencies:
+      seroval: ^1.0
+    dependencies:
+      seroval: 1.0.5
+
+  /seroval/1.0.5:
+    resolution: {integrity: sha512-TM+Z11tHHvQVQKeNlOUonOWnsNM+2IBwZ4vwoi4j3zKzIpc5IDw8WPwCfcc8F17wy6cBcJGbZbFOR0UCuTZHQA==}
+    engines: {node: '>=10'}
+
   /shebang-command/2.0.0:
     resolution: {integrity: sha512-kHxr2zZpYtdmrN1qDjrrX/Z1rR1kG8Dx+gkpK1G4eXmvXswmcE1hTWBWYUzlraYw1/yZp6YuDY77YtvbN0dmDA==}
     engines: {node: '>=8'}
@@ -2401,12 +2417,14 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /solid-js/1.6.5:
-    resolution: {integrity: sha512-q1/wIIRmrWltNnP3PW/e29eRWCC24hX5amBiOXomw2kDiM6JZZ10l+chK/Oi/6ipwUxeabYl5YD2lJOObY9heA==}
+  /solid-js/1.8.16:
+    resolution: {integrity: sha512-rja94MNU9flF3qQRLNsu60QHKBDKBkVE1DldJZPIfn2ypIn3NV2WpSbGTQIvsyGPBo+9E2IMjwqnqpbgfWuzeg==}
     dependencies:
-      csstype: 3.1.1
+      csstype: 3.1.3
+      seroval: 1.0.5
+      seroval-plugins: 1.0.5_seroval@1.0.5
 
-  /solid-refresh/0.4.1_solid-js@1.6.5:
+  /solid-refresh/0.4.1_solid-js@1.8.16:
     resolution: {integrity: sha512-v3tD/OXQcUyXLrWjPW1dXZyeWwP7/+GQNs8YTL09GBq+5FguA6IejJWUvJDrLIA4M0ho9/5zK2e9n+uy+4488g==}
     peerDependencies:
       solid-js: ^1.3
@@ -2414,7 +2432,7 @@ packages:
       '@babel/generator': 7.20.5
       '@babel/helper-module-imports': 7.18.6
       '@babel/types': 7.20.5
-      solid-js: 1.6.5
+      solid-js: 1.8.16
     dev: true
 
   /source-map-js/1.0.2:
@@ -2563,7 +2581,7 @@ packages:
       punycode: 2.1.1
     dev: true
 
-  /vite-plugin-solid/2.5.0_solid-js@1.6.5+vite@3.2.5:
+  /vite-plugin-solid/2.5.0_solid-js@1.8.16+vite@3.2.5:
     resolution: {integrity: sha512-VneGd3RyFJvwaiffsqgymeMaofn0IzQLPwDzafTV2f1agoWeeJlk5VrI5WqT9BTtLe69vNNbCJWqLhHr9fOdDw==}
     peerDependencies:
       solid-js: ^1.3.17 || ^1.4.0 || ^1.5.0 || ^1.6.0
@@ -2573,8 +2591,8 @@ packages:
       '@babel/preset-typescript': 7.18.6_@babel+core@7.20.5
       babel-preset-solid: 1.6.3_@babel+core@7.20.5
       merge-anything: 5.1.4
-      solid-js: 1.6.5
-      solid-refresh: 0.4.1_solid-js@1.6.5
+      solid-js: 1.8.16
+      solid-refresh: 0.4.1_solid-js@1.8.16
       vite: 3.2.5_sass@1.57.0
       vitefu: 0.2.3_vite@3.2.5
     transitivePeerDependencies:
@@ -2612,7 +2630,7 @@ packages:
       rollup: 2.79.1
       sass: 1.57.0
     optionalDependencies:
-      fsevents: 2.3.2
+      fsevents: 2.3.3
     dev: true
 
   /vitefu/0.2.3_vite@3.2.5:
