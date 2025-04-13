@@ -28,7 +28,7 @@ jobs:
           node-version: latest
 
       # Use cache to reduce installation time
-      - uses: pnpm/action-setup@v2
+      - uses: pnpm/action-setup@v4
         name: Install pnpm
         id: pnpm-install
         with:
